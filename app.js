@@ -57,7 +57,7 @@ const resetTimer = () => {
   isRunning = false;
   isPaused = false;
   pauseBtn.textContent = 'pause';
-  session.textContent = '15';
+  session.textContent = '25';
   document.querySelector('.seconds').textContent = '00';
 };
 
